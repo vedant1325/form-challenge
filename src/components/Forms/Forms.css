@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Makes the container take the full viewport height */
+  text-align: center;
+  background: linear-gradient(345deg,blue,white);
+ 
+}
+form h1{
+    color: white;
+}
+form{
+    border-radius: 12px;
+    background-color: rgb(11, 65, 113);
+    
+    display: flex;
+    padding: 23px 21px;
+
+    flex-direction: column;
+}
+
+.con-in{
+    color: rgb(0, 0, 0);
+   
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 23px;
+    border-radius: 12px;
+    width: 325px;
+    gap: 23px;
+    padding: 12px 1px;
+    box-shadow: 42px;
+    border: none;
+}
+button{
+    padding: 12px 4px;
+    width: 223px;
+    align-content: center;
+    margin-top: 23px;
+    text-align: center;
+    border-radius: 34px;
+    margin-left: 13%;
+    cursor: pointer;
+    color: white;
+    background: rgb(20, 60, 217);
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+button:hover{
+    background: linear-gradient(230deg,blue,rgb(11, 163, 228)56%);
+}
